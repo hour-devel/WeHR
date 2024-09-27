@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7285CB4C2CA65ACF00198703 /* WeHRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB4B2CA65ACF00198703 /* WeHRApp.swift */; };
+		7285CB4E2CA65ACF00198703 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB4D2CA65ACF00198703 /* ContentView.swift */; };
+		7285CB502CA65AD000198703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7285CB4F2CA65AD000198703 /* Assets.xcassets */; };
+		7285CB532CA65AD000198703 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7285CB522CA65AD000198703 /* Preview Assets.xcassets */; };
+		7285CB5D2CA65AD000198703 /* WeHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB5C2CA65AD000198703 /* WeHRTests.swift */; };
+		7285CB672CA65AD000198703 /* WeHRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB662CA65AD000198703 /* WeHRUITests.swift */; };
+		7285CB692CA65AD000198703 /* WeHRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7285CB592CA65AD000198703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7285CB402CA65ACF00198703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7285CB472CA65ACF00198703;
+			remoteInfo = WeHR;
+		};
+		7285CB632CA65AD000198703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7285CB402CA65ACF00198703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7285CB472CA65ACF00198703;
+			remoteInfo = WeHR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7285CB482CA65ACF00198703 /* WeHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7285CB4B2CA65ACF00198703 /* WeHRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRApp.swift; sourceTree = "<group>"; };
+		7285CB4D2CA65ACF00198703 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7285CB4F2CA65AD000198703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7285CB522CA65AD000198703 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7285CB582CA65AD000198703 /* WeHRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeHRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7285CB5C2CA65AD000198703 /* WeHRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRTests.swift; sourceTree = "<group>"; };
+		7285CB622CA65AD000198703 /* WeHRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeHRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7285CB662CA65AD000198703 /* WeHRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITests.swift; sourceTree = "<group>"; };
+		7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7285CB452CA65ACF00198703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285CB552CA65AD000198703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285CB5F2CA65AD000198703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7285CB3F2CA65ACF00198703 = {
+			isa = PBXGroup;
+			children = (
+				7285CB4A2CA65ACF00198703 /* WeHR */,
+				7285CB5B2CA65AD000198703 /* WeHRTests */,
+				7285CB652CA65AD000198703 /* WeHRUITests */,
+				7285CB492CA65ACF00198703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7285CB492CA65ACF00198703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7285CB482CA65ACF00198703 /* WeHR.app */,
+				7285CB582CA65AD000198703 /* WeHRTests.xctest */,
+				7285CB622CA65AD000198703 /* WeHRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7285CB4A2CA65ACF00198703 /* WeHR */ = {
+			isa = PBXGroup;
+			children = (
+				7285CB4B2CA65ACF00198703 /* WeHRApp.swift */,
+				7285CB4D2CA65ACF00198703 /* ContentView.swift */,
+				7285CB4F2CA65AD000198703 /* Assets.xcassets */,
+				7285CB512CA65AD000198703 /* Preview Content */,
+			);
+			path = WeHR;
+			sourceTree = "<group>";
+		};
+		7285CB512CA65AD000198703 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7285CB522CA65AD000198703 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7285CB5B2CA65AD000198703 /* WeHRTests */ = {
+			isa = PBXGroup;
+			children = (
+				7285CB5C2CA65AD000198703 /* WeHRTests.swift */,
+			);
+			path = WeHRTests;
+			sourceTree = "<group>";
+		};
+		7285CB652CA65AD000198703 /* WeHRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7285CB662CA65AD000198703 /* WeHRUITests.swift */,
+				7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */,
+			);
+			path = WeHRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7285CB472CA65ACF00198703 /* WeHR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7285CB6C2CA65AD000198703 /* Build configuration list for PBXNativeTarget "WeHR" */;
+			buildPhases = (
+				7285CB442CA65ACF00198703 /* Sources */,
+				7285CB452CA65ACF00198703 /* Frameworks */,
+				7285CB462CA65ACF00198703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeHR;
+			productName = WeHR;
+			productReference = 7285CB482CA65ACF00198703 /* WeHR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7285CB572CA65AD000198703 /* WeHRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7285CB6F2CA65AD000198703 /* Build configuration list for PBXNativeTarget "WeHRTests" */;
+			buildPhases = (
+				7285CB542CA65AD000198703 /* Sources */,
+				7285CB552CA65AD000198703 /* Frameworks */,
+				7285CB562CA65AD000198703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7285CB5A2CA65AD000198703 /* PBXTargetDependency */,
+			);
+			name = WeHRTests;
+			productName = WeHRTests;
+			productReference = 7285CB582CA65AD000198703 /* WeHRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7285CB612CA65AD000198703 /* WeHRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7285CB722CA65AD000198703 /* Build configuration list for PBXNativeTarget "WeHRUITests" */;
+			buildPhases = (
+				7285CB5E2CA65AD000198703 /* Sources */,
+				7285CB5F2CA65AD000198703 /* Frameworks */,
+				7285CB602CA65AD000198703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7285CB642CA65AD000198703 /* PBXTargetDependency */,
+			);
+			name = WeHRUITests;
+			productName = WeHRUITests;
+			productReference = 7285CB622CA65AD000198703 /* WeHRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7285CB402CA65ACF00198703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7285CB472CA65ACF00198703 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7285CB572CA65AD000198703 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7285CB472CA65ACF00198703;
+					};
+					7285CB612CA65AD000198703 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7285CB472CA65ACF00198703;
+					};
+				};
+			};
+			buildConfigurationList = 7285CB432CA65ACF00198703 /* Build configuration list for PBXProject "WeHR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7285CB3F2CA65ACF00198703;
+			productRefGroup = 7285CB492CA65ACF00198703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7285CB472CA65ACF00198703 /* WeHR */,
+				7285CB572CA65AD000198703 /* WeHRTests */,
+				7285CB612CA65AD000198703 /* WeHRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7285CB462CA65ACF00198703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285CB532CA65AD000198703 /* Preview Assets.xcassets in Resources */,
+				7285CB502CA65AD000198703 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285CB562CA65AD000198703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285CB602CA65AD000198703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7285CB442CA65ACF00198703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285CB4E2CA65ACF00198703 /* ContentView.swift in Sources */,
+				7285CB4C2CA65ACF00198703 /* WeHRApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285CB542CA65AD000198703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285CB5D2CA65AD000198703 /* WeHRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285CB5E2CA65AD000198703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285CB692CA65AD000198703 /* WeHRUITestsLaunchTests.swift in Sources */,
+				7285CB672CA65AD000198703 /* WeHRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7285CB5A2CA65AD000198703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7285CB472CA65ACF00198703 /* WeHR */;
+			targetProxy = 7285CB592CA65AD000198703 /* PBXContainerItemProxy */;
+		};
+		7285CB642CA65AD000198703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7285CB472CA65ACF00198703 /* WeHR */;
+			targetProxy = 7285CB632CA65AD000198703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7285CB6A2CA65AD000198703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7285CB6B2CA65AD000198703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7285CB6D2CA65AD000198703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeHR/Preview Content\"";
+				DEVELOPMENT_TEAM = 464YC8Z8V2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.WeHR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7285CB6E2CA65AD000198703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeHR/Preview Content\"";
+				DEVELOPMENT_TEAM = 464YC8Z8V2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.WeHR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7285CB702CA65AD000198703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464YC8Z8V2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.WeHRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeHR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeHR";
+			};
+			name = Debug;
+		};
+		7285CB712CA65AD000198703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464YC8Z8V2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.WeHRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeHR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeHR";
+			};
+			name = Release;
+		};
+		7285CB732CA65AD000198703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464YC8Z8V2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.WeHRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeHR;
+			};
+			name = Debug;
+		};
+		7285CB742CA65AD000198703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 464YC8Z8V2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.WeHRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeHR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7285CB432CA65ACF00198703 /* Build configuration list for PBXProject "WeHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7285CB6A2CA65AD000198703 /* Debug */,
+				7285CB6B2CA65AD000198703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7285CB6C2CA65AD000198703 /* Build configuration list for PBXNativeTarget "WeHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7285CB6D2CA65AD000198703 /* Debug */,
+				7285CB6E2CA65AD000198703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7285CB6F2CA65AD000198703 /* Build configuration list for PBXNativeTarget "WeHRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7285CB702CA65AD000198703 /* Debug */,
+				7285CB712CA65AD000198703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7285CB722CA65AD000198703 /* Build configuration list for PBXNativeTarget "WeHRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7285CB732CA65AD000198703 /* Debug */,
+				7285CB742CA65AD000198703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7285CB402CA65ACF00198703 /* Project object */;
+}
