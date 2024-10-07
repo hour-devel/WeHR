@@ -56,7 +56,7 @@ struct AttendanceView: View {
                         Button(action: {
                             showFilter = true
                         }, label: {
-                            Image("Filter")
+                            Image("filter")
                                 .resizable()
                                 .frame(width: 20, height: 20)
                             Text("Filter")

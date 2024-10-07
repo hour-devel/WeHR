@@ -36,7 +36,7 @@ struct AccountSectionComponent: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 25, height: 25)
-                        Image(.arrow)
+                        Image("angle-right")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 7, height: 12)

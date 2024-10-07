@@ -15,6 +15,38 @@
 		7285CB5D2CA65AD000198703 /* WeHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB5C2CA65AD000198703 /* WeHRTests.swift */; };
 		7285CB672CA65AD000198703 /* WeHRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB662CA65AD000198703 /* WeHRUITests.swift */; };
 		7285CB692CA65AD000198703 /* WeHRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */; };
+		72B05D4B2CB3CFAD00B5F16B /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D402CB3CFAD00B5F16B /* CustomColor.swift */; };
+		72B05D4C2CB3CFAD00B5F16B /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D412CB3CFAD00B5F16B /* MyColor.swift */; };
+		72B05D4D2CB3CFAD00B5F16B /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D432CB3CFAD00B5F16B /* Font.swift */; };
+		72B05D4E2CB3CFAD00B5F16B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72B05D442CB3CFAD00B5F16B /* Roboto-Black.ttf */; };
+		72B05D4F2CB3CFAD00B5F16B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72B05D452CB3CFAD00B5F16B /* Roboto-Medium.ttf */; };
+		72B05D502CB3CFAD00B5F16B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72B05D462CB3CFAD00B5F16B /* Roboto-Regular.ttf */; };
+		72B05D512CB3CFAD00B5F16B /* TextEditorWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D472CB3CFAD00B5F16B /* TextEditorWithPlaceholder.swift */; };
+		72B05D542CB3D02E00B5F16B /* OvertimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D522CB3D02E00B5F16B /* OvertimeModel.swift */; };
+		72B05D5E2CB3D03B00B5F16B /* OvertimeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D562CB3D03B00B5F16B /* OvertimeForm.swift */; };
+		72B05D5F2CB3D03B00B5F16B /* OvertimeListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D572CB3D03B00B5F16B /* OvertimeListCard.swift */; };
+		72B05D602CB3D03B00B5F16B /* EditOvertimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D592CB3D03B00B5F16B /* EditOvertimeView.swift */; };
+		72B05D612CB3D03B00B5F16B /* OvertimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D5A2CB3D03B00B5F16B /* OvertimeDetailView.swift */; };
+		72B05D622CB3D03B00B5F16B /* OvertimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D5B2CB3D03B00B5F16B /* OvertimeView.swift */; };
+		72B05D632CB3D03B00B5F16B /* RequestOvertimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D5C2CB3D03B00B5F16B /* RequestOvertimeView.swift */; };
+		72B05D722CB3D05300B5F16B /* LeaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D642CB3D05300B5F16B /* LeaveModel.swift */; };
+		72B05D732CB3D05300B5F16B /* LeaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D662CB3D05300B5F16B /* LeaveForm.swift */; };
+		72B05D742CB3D05300B5F16B /* LeaveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D672CB3D05300B5F16B /* LeaveList.swift */; };
+		72B05D762CB3D05300B5F16B /* EditLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D6B2CB3D05300B5F16B /* EditLeaveView.swift */; };
+		72B05D772CB3D05300B5F16B /* LeaveDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D6C2CB3D05300B5F16B /* LeaveDetailsView.swift */; };
+		72B05D782CB3D05300B5F16B /* LeaveRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D6D2CB3D05300B5F16B /* LeaveRequestView.swift */; };
+		72B05D792CB3D05300B5F16B /* LeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D6E2CB3D05300B5F16B /* LeaveView.swift */; };
+		72B05D7A2CB3D05300B5F16B /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D6F2CB3D05300B5F16B /* PopupView.swift */; };
+		72B05D7B2CB3D05300B5F16B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D702CB3D05300B5F16B /* SwiftUIView.swift */; };
+		72B05D7D2CB3D0F000B5F16B /* SelectDateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D7C2CB3D0F000B5F16B /* SelectDateComponent.swift */; };
+		72B05D8A2CB3D4B200B5F16B /* AccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D7E2CB3D4B200B5F16B /* AccountButton.swift */; };
+		72B05D8B2CB3D4B200B5F16B /* AccountSectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D7F2CB3D4B200B5F16B /* AccountSectionComponent.swift */; };
+		72B05D8C2CB3D4B200B5F16B /* InfoSectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D802CB3D4B200B5F16B /* InfoSectionComponent.swift */; };
+		72B05D8D2CB3D4B200B5F16B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D822CB3D4B200B5F16B /* Users.swift */; };
+		72B05D8E2CB3D4B200B5F16B /* AccountSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D852CB3D4B200B5F16B /* AccountSettingView.swift */; };
+		72B05D8F2CB3D4B200B5F16B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D862CB3D4B200B5F16B /* ProfileView.swift */; };
+		72B05D902CB3D4B200B5F16B /* RolesAndPoliciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D872CB3D4B200B5F16B /* RolesAndPoliciesView.swift */; };
+		72B05D922CB3D58C00B5F16B /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B05D912CB3D58C00B5F16B /* SummaryView.swift */; };
 		72B06C342CAA98A500D0D8E8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B06C332CAA98A500D0D8E8 /* SignUpView.swift */; };
 		72B64E112CAE3CEB00179FF2 /* LoadingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */; };
 		72D0B3812CAA410E00CD60B0 /* PermissionNotificationPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */; };
@@ -35,7 +67,6 @@
 		72EEF4872CB2954F00D32246 /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF4862CB2954F00D32246 /* AttendanceView.swift */; };
 		72EEF4892CB2957600D32246 /* FilterComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF4882CB2957600D32246 /* FilterComponent.swift */; };
 		72EEF48B2CB295BC00D32246 /* ListAttendecesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */; };
-		72EEF48D2CB295D900D32246 /* SelectDateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF48C2CB295D900D32246 /* SelectDateComponent.swift */; };
 		72F600C42CA9996800C3ED22 /* LanguageOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F600C32CA9996800C3ED22 /* LanguageOption.swift */; };
 		72F600C62CA9998900C3ED22 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F600C52CA9998900C3ED22 /* LanguageSelectionView.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +100,38 @@
 		7285CB622CA65AD000198703 /* WeHRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeHRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7285CB662CA65AD000198703 /* WeHRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITests.swift; sourceTree = "<group>"; };
 		7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72B05D402CB3CFAD00B5F16B /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		72B05D412CB3CFAD00B5F16B /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		72B05D432CB3CFAD00B5F16B /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		72B05D442CB3CFAD00B5F16B /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		72B05D452CB3CFAD00B5F16B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		72B05D462CB3CFAD00B5F16B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		72B05D472CB3CFAD00B5F16B /* TextEditorWithPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorWithPlaceholder.swift; sourceTree = "<group>"; };
+		72B05D522CB3D02E00B5F16B /* OvertimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertimeModel.swift; sourceTree = "<group>"; };
+		72B05D562CB3D03B00B5F16B /* OvertimeForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertimeForm.swift; sourceTree = "<group>"; };
+		72B05D572CB3D03B00B5F16B /* OvertimeListCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertimeListCard.swift; sourceTree = "<group>"; };
+		72B05D592CB3D03B00B5F16B /* EditOvertimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditOvertimeView.swift; sourceTree = "<group>"; };
+		72B05D5A2CB3D03B00B5F16B /* OvertimeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertimeDetailView.swift; sourceTree = "<group>"; };
+		72B05D5B2CB3D03B00B5F16B /* OvertimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertimeView.swift; sourceTree = "<group>"; };
+		72B05D5C2CB3D03B00B5F16B /* RequestOvertimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOvertimeView.swift; sourceTree = "<group>"; };
+		72B05D642CB3D05300B5F16B /* LeaveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveModel.swift; sourceTree = "<group>"; };
+		72B05D662CB3D05300B5F16B /* LeaveForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveForm.swift; sourceTree = "<group>"; };
+		72B05D672CB3D05300B5F16B /* LeaveList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveList.swift; sourceTree = "<group>"; };
+		72B05D6B2CB3D05300B5F16B /* EditLeaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditLeaveView.swift; sourceTree = "<group>"; };
+		72B05D6C2CB3D05300B5F16B /* LeaveDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveDetailsView.swift; sourceTree = "<group>"; };
+		72B05D6D2CB3D05300B5F16B /* LeaveRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveRequestView.swift; sourceTree = "<group>"; };
+		72B05D6E2CB3D05300B5F16B /* LeaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveView.swift; sourceTree = "<group>"; };
+		72B05D6F2CB3D05300B5F16B /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		72B05D702CB3D05300B5F16B /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		72B05D7C2CB3D0F000B5F16B /* SelectDateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateComponent.swift; sourceTree = "<group>"; };
+		72B05D7E2CB3D4B200B5F16B /* AccountButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountButton.swift; sourceTree = "<group>"; };
+		72B05D7F2CB3D4B200B5F16B /* AccountSectionComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSectionComponent.swift; sourceTree = "<group>"; };
+		72B05D802CB3D4B200B5F16B /* InfoSectionComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSectionComponent.swift; sourceTree = "<group>"; };
+		72B05D822CB3D4B200B5F16B /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		72B05D852CB3D4B200B5F16B /* AccountSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingView.swift; sourceTree = "<group>"; };
+		72B05D862CB3D4B200B5F16B /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		72B05D872CB3D4B200B5F16B /* RolesAndPoliciesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolesAndPoliciesView.swift; sourceTree = "<group>"; };
+		72B05D912CB3D58C00B5F16B /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		72B06C332CAA98A500D0D8E8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingComponent.swift; sourceTree = "<group>"; };
 		72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionNotificationPopover.swift; sourceTree = "<group>"; };
@@ -86,7 +149,6 @@
 		72EEF4862CB2954F00D32246 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
 		72EEF4882CB2957600D32246 /* FilterComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterComponent.swift; sourceTree = "<group>"; };
 		72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAttendecesComponent.swift; sourceTree = "<group>"; };
-		72EEF48C2CB295D900D32246 /* SelectDateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateComponent.swift; sourceTree = "<group>"; };
 		72F600C32CA9996800C3ED22 /* LanguageOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOption.swift; sourceTree = "<group>"; };
 		72F600C52CA9998900C3ED22 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,13 +204,6 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		72401A722CA8FFC300EB2E08 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		72401A742CA902B200EB2E08 /* Summary */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,10 +229,10 @@
 		72401A762CA902CA00EB2E08 /* Leave */ = {
 			isa = PBXGroup;
 			children = (
-				72401A832CA903AF00EB2E08 /* Components */,
-				72401A822CA903A800EB2E08 /* Views */,
-				72401A812CA903A200EB2E08 /* ViewModels */,
-				72401A802CA9039600EB2E08 /* Models */,
+				72B05D692CB3D05300B5F16B /* Components */,
+				72B05D652CB3D05300B5F16B /* Models */,
+				72B05D6A2CB3D05300B5F16B /* ViewModels */,
+				72B05D712CB3D05300B5F16B /* Views */,
 			);
 			path = Leave;
 			sourceTree = "<group>";
@@ -185,10 +240,10 @@
 		72401A772CA902D400EB2E08 /* Overtime */ = {
 			isa = PBXGroup;
 			children = (
-				72401A872CA903CC00EB2E08 /* Components */,
-				72401A862CA903C600EB2E08 /* Views */,
-				72401A852CA903BE00EB2E08 /* ViewModels */,
-				72401A842CA903BA00EB2E08 /* Models */,
+				72B05D582CB3D03B00B5F16B /* Components */,
+				72B05D552CB3D03A00B5F16B /* ViewModels */,
+				72B05D5D2CB3D03B00B5F16B /* Views */,
+				72B05D532CB3D02E00B5F16B /* Models */,
 			);
 			path = Overtime;
 			sourceTree = "<group>";
@@ -196,6 +251,7 @@
 		72401A782CA902DD00EB2E08 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				72B05D912CB3D58C00B5F16B /* SummaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,65 +306,8 @@
 			children = (
 				72EEF4882CB2957600D32246 /* FilterComponent.swift */,
 				72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */,
-				72EEF48C2CB295D900D32246 /* SelectDateComponent.swift */,
 			);
 			path = Component;
-			sourceTree = "<group>";
-		};
-		72401A802CA9039600EB2E08 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		72401A812CA903A200EB2E08 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		72401A822CA903A800EB2E08 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		72401A832CA903AF00EB2E08 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		72401A842CA903BA00EB2E08 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		72401A852CA903BE00EB2E08 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		72401A862CA903C600EB2E08 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		72401A872CA903CC00EB2E08 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		7285CB3F2CA65ACF00198703 = {
@@ -336,7 +335,7 @@
 			children = (
 				7285CBE62CA66ADB00198703 /* Home */,
 				7285CBE52CA66AD200198703 /* Authentication */,
-				7285CBFB2CA66BE600198703 /* Setting */,
+				72B05D892CB3D4B200B5F16B /* Setting */,
 				7285CBEF2CA66B5F00198703 /* Helper */,
 				7285CB4B2CA65ACF00198703 /* WeHRApp.swift */,
 				72E157242CABDD5E00991EF4 /* GoogleService-Info.plist */,
@@ -398,6 +397,7 @@
 		7285CBEF2CA66B5F00198703 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				72B05D4A2CB3CFAD00B5F16B /* Custom */,
 				72401A6F2CA8FF8E00EB2E08 /* Components */,
 				7285CBFA2CA66BCA00198703 /* Utilities */,
 			);
@@ -437,36 +437,161 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		7285CBFB2CA66BE600198703 /* Setting */ = {
+		72B05D422CB3CFAD00B5F16B /* Color */ = {
 			isa = PBXGroup;
 			children = (
-				72401A722CA8FFC300EB2E08 /* Components */,
-				7285CBFE2CA66BFB00198703 /* Views */,
-				7285CBFD2CA66BF400198703 /* ViewModels */,
-				7285CBFC2CA66BED00198703 /* Models */,
+				72B05D402CB3CFAD00B5F16B /* CustomColor.swift */,
+				72B05D412CB3CFAD00B5F16B /* MyColor.swift */,
 			);
-			path = Setting;
+			path = Color;
 			sourceTree = "<group>";
 		};
-		7285CBFC2CA66BED00198703 /* Models */ = {
+		72B05D482CB3CFAD00B5F16B /* font */ = {
 			isa = PBXGroup;
 			children = (
+				72B05D432CB3CFAD00B5F16B /* Font.swift */,
+				72B05D442CB3CFAD00B5F16B /* Roboto-Black.ttf */,
+				72B05D452CB3CFAD00B5F16B /* Roboto-Medium.ttf */,
+				72B05D462CB3CFAD00B5F16B /* Roboto-Regular.ttf */,
+				72B05D472CB3CFAD00B5F16B /* TextEditorWithPlaceholder.swift */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		72B05D492CB3CFAD00B5F16B /* localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
+		72B05D4A2CB3CFAD00B5F16B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D422CB3CFAD00B5F16B /* Color */,
+				72B05D482CB3CFAD00B5F16B /* font */,
+				72B05D492CB3CFAD00B5F16B /* localization */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		72B05D532CB3D02E00B5F16B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D522CB3D02E00B5F16B /* OvertimeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		7285CBFD2CA66BF400198703 /* ViewModels */ = {
+		72B05D552CB3D03A00B5F16B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		7285CBFE2CA66BFB00198703 /* Views */ = {
+		72B05D582CB3D03B00B5F16B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D562CB3D03B00B5F16B /* OvertimeForm.swift */,
+				72B05D572CB3D03B00B5F16B /* OvertimeListCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72B05D5D2CB3D03B00B5F16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D592CB3D03B00B5F16B /* EditOvertimeView.swift */,
+				72B05D5A2CB3D03B00B5F16B /* OvertimeDetailView.swift */,
+				72B05D5B2CB3D03B00B5F16B /* OvertimeView.swift */,
+				72B05D5C2CB3D03B00B5F16B /* RequestOvertimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72B05D652CB3D05300B5F16B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D642CB3D05300B5F16B /* LeaveModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72B05D692CB3D05300B5F16B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D662CB3D05300B5F16B /* LeaveForm.swift */,
+				72B05D672CB3D05300B5F16B /* LeaveList.swift */,
+				72B05D7C2CB3D0F000B5F16B /* SelectDateComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72B05D6A2CB3D05300B5F16B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72B05D712CB3D05300B5F16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D6B2CB3D05300B5F16B /* EditLeaveView.swift */,
+				72B05D6C2CB3D05300B5F16B /* LeaveDetailsView.swift */,
+				72B05D6D2CB3D05300B5F16B /* LeaveRequestView.swift */,
+				72B05D6E2CB3D05300B5F16B /* LeaveView.swift */,
+				72B05D6F2CB3D05300B5F16B /* PopupView.swift */,
+				72B05D702CB3D05300B5F16B /* SwiftUIView.swift */,
+			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		72B05D812CB3D4B200B5F16B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D7E2CB3D4B200B5F16B /* AccountButton.swift */,
+				72B05D7F2CB3D4B200B5F16B /* AccountSectionComponent.swift */,
+				72B05D802CB3D4B200B5F16B /* InfoSectionComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72B05D832CB3D4B200B5F16B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D822CB3D4B200B5F16B /* Users.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72B05D842CB3D4B200B5F16B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72B05D882CB3D4B200B5F16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D852CB3D4B200B5F16B /* AccountSettingView.swift */,
+				72B05D862CB3D4B200B5F16B /* ProfileView.swift */,
+				72B05D872CB3D4B200B5F16B /* RolesAndPoliciesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72B05D892CB3D4B200B5F16B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				72B05D812CB3D4B200B5F16B /* Components */,
+				72B05D832CB3D4B200B5F16B /* Models */,
+				72B05D842CB3D4B200B5F16B /* ViewModels */,
+				72B05D882CB3D4B200B5F16B /* Views */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -583,9 +708,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B05D502CB3CFAD00B5F16B /* Roboto-Regular.ttf in Resources */,
+				72B05D4F2CB3CFAD00B5F16B /* Roboto-Medium.ttf in Resources */,
 				7285CB532CA65AD000198703 /* Preview Assets.xcassets in Resources */,
 				7285CB502CA65AD000198703 /* Assets.xcassets in Resources */,
 				72E157252CABDD5E00991EF4 /* GoogleService-Info.plist in Resources */,
+				72B05D4E2CB3CFAD00B5F16B /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,27 +738,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B05D542CB3D02E00B5F16B /* OvertimeModel.swift in Sources */,
 				72EEF4852CB2948500D32246 /* Attendance.swift in Sources */,
 				72E5C23F2CAADA6900C6EFF3 /* OTPView.swift in Sources */,
+				72B05D632CB3D03B00B5F16B /* RequestOvertimeView.swift in Sources */,
+				72B05D8F2CB3D4B200B5F16B /* ProfileView.swift in Sources */,
+				72B05D512CB3CFAD00B5F16B /* TextEditorWithPlaceholder.swift in Sources */,
+				72B05D4B2CB3CFAD00B5F16B /* CustomColor.swift in Sources */,
 				72D0B3832CAA432E00CD60B0 /* LoginView.swift in Sources */,
+				72B05D922CB3D58C00B5F16B /* SummaryView.swift in Sources */,
+				72B05D7B2CB3D05300B5F16B /* SwiftUIView.swift in Sources */,
+				72B05D762CB3D05300B5F16B /* EditLeaveView.swift in Sources */,
 				726F7ECA2CAD044100847434 /* WeHRView.swift in Sources */,
+				72B05D792CB3D05300B5F16B /* LeaveView.swift in Sources */,
+				72B05D8E2CB3D4B200B5F16B /* AccountSettingView.swift in Sources */,
 				72F600C42CA9996800C3ED22 /* LanguageOption.swift in Sources */,
 				72D0B3852CAA52CA00CD60B0 /* InputComponent.swift in Sources */,
 				7285CB4C2CA65ACF00198703 /* WeHRApp.swift in Sources */,
+				72B05D902CB3D4B200B5F16B /* RolesAndPoliciesView.swift in Sources */,
+				72B05D782CB3D05300B5F16B /* LeaveRequestView.swift in Sources */,
 				72EEF4872CB2954F00D32246 /* AttendanceView.swift in Sources */,
 				72E5C2422CAAE32C00C6EFF3 /* OTPModifier.swift in Sources */,
 				72EEF4832CB2946400D32246 /* AttendanceViewModel.swift in Sources */,
-				72EEF48D2CB295D900D32246 /* SelectDateComponent.swift in Sources */,
 				72B64E112CAE3CEB00179FF2 /* LoadingComponent.swift in Sources */,
 				72F600C62CA9998900C3ED22 /* LanguageSelectionView.swift in Sources */,
+				72B05D612CB3D03B00B5F16B /* OvertimeDetailView.swift in Sources */,
 				72401A892CA92D0400EB2E08 /* landing.swift in Sources */,
+				72B05D8B2CB3D4B200B5F16B /* AccountSectionComponent.swift in Sources */,
+				72B05D602CB3D03B00B5F16B /* EditOvertimeView.swift in Sources */,
 				72E157322CABE2E800991EF4 /* GoogleAuth.swift in Sources */,
+				72B05D8C2CB3D4B200B5F16B /* InfoSectionComponent.swift in Sources */,
 				72EEF48B2CB295BC00D32246 /* ListAttendecesComponent.swift in Sources */,
 				72D0B3812CAA410E00CD60B0 /* PermissionNotificationPopover.swift in Sources */,
+				72B05D732CB3D05300B5F16B /* LeaveForm.swift in Sources */,
+				72B05D622CB3D03B00B5F16B /* OvertimeView.swift in Sources */,
+				72B05D4C2CB3CFAD00B5F16B /* MyColor.swift in Sources */,
+				72B05D5E2CB3D03B00B5F16B /* OvertimeForm.swift in Sources */,
+				72B05D7D2CB3D0F000B5F16B /* SelectDateComponent.swift in Sources */,
 				72E157342CABF31700991EF4 /* ButtonComponent.swift in Sources */,
+				72B05D7A2CB3D05300B5F16B /* PopupView.swift in Sources */,
+				72B05D742CB3D05300B5F16B /* LeaveList.swift in Sources */,
+				72B05D772CB3D05300B5F16B /* LeaveDetailsView.swift in Sources */,
+				72B05D8D2CB3D4B200B5F16B /* Users.swift in Sources */,
+				72B05D4D2CB3CFAD00B5F16B /* Font.swift in Sources */,
 				72EEF4892CB2957600D32246 /* FilterComponent.swift in Sources */,
 				72D0B3872CAA53BE00CD60B0 /* SecureComponent.swift in Sources */,
+				72B05D5F2CB3D03B00B5F16B /* OvertimeListCard.swift in Sources */,
+				72B05D722CB3D05300B5F16B /* LeaveModel.swift in Sources */,
 				72B06C342CAA98A500D0D8E8 /* SignUpView.swift in Sources */,
+				72B05D8A2CB3D4B200B5F16B /* AccountButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

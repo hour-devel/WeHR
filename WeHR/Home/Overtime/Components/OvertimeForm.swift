@@ -152,11 +152,9 @@ struct OvertimeForm: View {
                         
                     )
                 if !isOvertimeDetail && !isEditOvertime{
-                    Button{
-                        
-                    }label: {
-                        LongButton(buttonTittle: "Apply Overtime")
-                    }
+                    ButtonComponent(action: {
+                        print("Apply Overtime")
+                    }, content: "Apply Overtime")
                     .padding(.vertical)
                 }
                 

@@ -261,11 +261,9 @@ struct LeaveForm: View {
                             
                         )
                 }
-                Button{
-                    
-                }label: {
-                    LongButton(buttonTittle:isEditLeave ? "Update Leave" : "Apply Leave")
-                }
+                ButtonComponent(action: {
+                    print("Apply Overtime")
+                }, content: isEditLeave ? "Update Leave" : "Apply Leave")
                 .disabled(isLeaveDetail)
                 .opacity(isLeaveDetail ? 0 : 1 )
                 .padding(.top)

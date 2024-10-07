@@ -34,7 +34,7 @@ struct AccountSettingView: View {
                                 }
                                 .padding(.leading, 8)
                                 Spacer()
-                                Image(.arrow)
+                                Image("angle-right")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 7, height: 12)

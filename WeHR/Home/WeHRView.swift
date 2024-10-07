@@ -8,26 +8,39 @@
 import SwiftUI
 
 struct WeHRView: View {
+    @State var selectedTab: Int = 0
     var body: some View {
-        TabView{
-            Text("Summary").tabItem {
-                Image("Summary")
+        TabView(selection: $selectedTab) {
+            VStack{
                 Text("Summary")
             }
-            AttendanceView().tabItem {
-                Image("Attendance")
-                Text("Attendance")
+            .tag(0)
+            .tabItem{
+                Label("Summary", image: selectedTab == 0 ? "active-summary" : "summary")
             }
-            Text("Leave").tabItem {
-                Image("Leave")
-                Text("leave")
+            VStack{
+                AttendanceView()
             }
-            Text("Overtime").tabItem {
-                Image("OvertimeIcon")
-                Text("Overtime")
+            .tag(1)
+            .tabItem{
+                Label("Attendance", image: selectedTab == 1 ? "active-attendance" : "attendance")
             }
-        }
-        .navigationBarBackButtonHidden(true)
+            VStack{
+                LeaveView()
+            }
+            .tag(2)
+            .tabItem{
+                Label("Leave", image: selectedTab == 2 ? "active-leave" : "leave")
+            }
+            VStack{
+                OvertimeView()
+            }
+            .tag(3)
+            .tabItem{
+                Label("Overtime", image: selectedTab == 3 ? "active-overtime" :"overtimeIcon")
+            }
+            
+        }.accentColor(Color(hex: "#3F61E9"))
     }
 }
 
