@@ -15,8 +15,6 @@ struct CustomFontModifier: ViewModifier {
     }
 }
 
-
-
 struct CustomFontMediumModifier: ViewModifier {
     var size: CGFloat
     func body(content: Content) -> some View {
@@ -24,11 +22,23 @@ struct CustomFontMediumModifier: ViewModifier {
             .font(.custom("Roboto-Medium", size: size))
     }
 }
+
+struct CustomFontBoldModifier: ViewModifier {
+    var size: CGFloat
+    func body(content: Content) -> some View {
+        content
+            .font(.custom("Roboto-Black", size: size))
+    }
+}
+
 extension View {
     func customFont(size: CGFloat) -> some View {
         self.modifier(CustomFontModifier(size: size))
     }
     func customFontMedium(size: CGFloat) -> some View {
         self.modifier(CustomFontMediumModifier(size: size))
+    }
+    func customFontBold(size: CGFloat) -> some View {
+        self.modifier(CustomFontBoldModifier(size: size))
     }
 }

@@ -26,7 +26,8 @@ struct LoginView: View {
                             HStack{
                                 Text("Welcome to")
                                 Text("My HR").foregroundStyle(Color(red: 63 / 255, green: 97 / 255, blue: 233 / 255, opacity: 1.0))
-                            }.font(.system(size: 24,weight: .bold))
+                            }/*.font(.system(size: 24,weight: .bold))*/
+                            .customFontBold(size: 24)
                             Text("Please enter your account here")
                         }
                         .frame(minWidth: 300,maxWidth: geo.size.width,maxHeight: 200)

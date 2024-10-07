@@ -22,7 +22,7 @@ struct ButtonComponent: View {
             Spacer()
         })
         .padding(15)
-        .background(Color(red: 63 / 255, green: 97 / 255, blue: 233 / 255, opacity: 1.0))
+        .background(Color(hex: "primary"))
         .cornerRadius(10)
         .padding(.vertical)
     }

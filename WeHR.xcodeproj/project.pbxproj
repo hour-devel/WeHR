@@ -185,6 +185,7 @@
 		72401A6F2CA8FF8E00EB2E08 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				72E157332CABF31700991EF4 /* ButtonComponent.swift */,
 				72EEF4882CB2957600D32246 /* FilterComponent.swift */,
 				72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */,
 			);
@@ -200,7 +201,6 @@
 				72D0B3842CAA52CA00CD60B0 /* InputComponent.swift */,
 				72D0B3862CAA53BE00CD60B0 /* SecureComponent.swift */,
 				72E5C2412CAAE32C00C6EFF3 /* OTPModifier.swift */,
-				72E157332CABF31700991EF4 /* ButtonComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
