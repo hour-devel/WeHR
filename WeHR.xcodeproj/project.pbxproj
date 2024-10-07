@@ -185,6 +185,7 @@
 		72401A6F2CA8FF8E00EB2E08 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				72EEF4882CB2957600D32246 /* FilterComponent.swift */,
 				72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */,
 			);
 			path = Components;
@@ -304,7 +305,6 @@
 		72401A7F2CA9038700EB2E08 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				72EEF4882CB2957600D32246 /* FilterComponent.swift */,
 				72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */,
 			);
 			path = Component;

@@ -40,7 +40,9 @@ struct WeHRView: View {
                 Label("Overtime", image: selectedTab == 3 ? "active-overtime" :"overtimeIcon")
             }
             
-        }.accentColor(Color(hex: "#3F61E9"))
+        }
+        .navigationBarBackButtonHidden(true)
+        .accentColor(Color(hex: "#3F61E9"))
     }
 }
 

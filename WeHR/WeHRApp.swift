@@ -41,6 +41,16 @@ struct WeHRApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
+    init() {
+        let appearance = UINavigationBarAppearance()
+    
+        appearance.titleTextAttributes = [
+            .foregroundColor: UIColor(Color(hex: "#3F61E9")),
+            .font: UIFont.systemFont(ofSize: 16, weight: .bold)
+        ]
+        UINavigationBar.appearance().standardAppearance = appearance
+    }
+    
     var body: some Scene {
         WindowGroup {
             NavigationStack{
