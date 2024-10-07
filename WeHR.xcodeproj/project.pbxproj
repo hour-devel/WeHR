@@ -17,12 +17,6 @@
 		7285CB692CA65AD000198703 /* WeHRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */; };
 		72B06C342CAA98A500D0D8E8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B06C332CAA98A500D0D8E8 /* SignUpView.swift */; };
 		72B64E112CAE3CEB00179FF2 /* LoadingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */; };
-		72CA91C02CB39162001F4AD7 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91BD2CB39162001F4AD7 /* CustomColor.swift */; };
-		72CA91C12CB39162001F4AD7 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91BE2CB39162001F4AD7 /* MyColor.swift */; };
-		72CA91C72CB3916B001F4AD7 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91C22CB3916B001F4AD7 /* Font.swift */; };
-		72CA91C82CB3916B001F4AD7 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72CA91C32CB3916B001F4AD7 /* Roboto-Black.ttf */; };
-		72CA91C92CB3916B001F4AD7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72CA91C42CB3916B001F4AD7 /* Roboto-Regular.ttf */; };
-		72CA91CA2CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91C52CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift */; };
 		72D0B3812CAA410E00CD60B0 /* PermissionNotificationPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */; };
 		72D0B3832CAA432E00CD60B0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3822CAA432E00CD60B0 /* LoginView.swift */; };
 		72D0B3852CAA52CA00CD60B0 /* InputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3842CAA52CA00CD60B0 /* InputComponent.swift */; };
@@ -77,12 +71,6 @@
 		7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		72B06C332CAA98A500D0D8E8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingComponent.swift; sourceTree = "<group>"; };
-		72CA91BD2CB39162001F4AD7 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
-		72CA91BE2CB39162001F4AD7 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
-		72CA91C22CB3916B001F4AD7 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		72CA91C32CB3916B001F4AD7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		72CA91C42CB3916B001F4AD7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		72CA91C52CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorWithPlaceholder.swift; sourceTree = "<group>"; };
 		72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionNotificationPopover.swift; sourceTree = "<group>"; };
 		72D0B3822CAA432E00CD60B0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		72D0B3842CAA52CA00CD60B0 /* InputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputComponent.swift; sourceTree = "<group>"; };
@@ -159,16 +147,6 @@
 			children = (
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		72401A732CA9004F00EB2E08 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				72CA91C62CB3916B001F4AD7 /* font */,
-				72CA91BF2CB39162001F4AD7 /* Color */,
-				7285CBF12CA66B6D00198703 /* localization */,
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		72401A742CA902B200EB2E08 /* Summary */ = {
@@ -421,17 +399,9 @@
 			isa = PBXGroup;
 			children = (
 				72401A6F2CA8FF8E00EB2E08 /* Components */,
-				72401A732CA9004F00EB2E08 /* Config */,
 				7285CBFA2CA66BCA00198703 /* Utilities */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		7285CBF12CA66B6D00198703 /* localization */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = localization;
 			sourceTree = "<group>";
 		};
 		7285CBF72CA66BB100198703 /* Models */ = {
@@ -497,28 +467,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		72CA91BF2CB39162001F4AD7 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				72CA91BD2CB39162001F4AD7 /* CustomColor.swift */,
-				72CA91BE2CB39162001F4AD7 /* MyColor.swift */,
-			);
-			name = Color;
-			path = ../../../../../../Downloads/WeHR/WeHR/Helper/Custom/Color;
-			sourceTree = "<group>";
-		};
-		72CA91C62CB3916B001F4AD7 /* font */ = {
-			isa = PBXGroup;
-			children = (
-				72CA91C22CB3916B001F4AD7 /* Font.swift */,
-				72CA91C32CB3916B001F4AD7 /* Roboto-Black.ttf */,
-				72CA91C42CB3916B001F4AD7 /* Roboto-Regular.ttf */,
-				72CA91C52CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift */,
-			);
-			name = font;
-			path = ../../../../../../Downloads/WeHR/WeHR/Helper/Custom/font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -637,9 +585,7 @@
 			files = (
 				7285CB532CA65AD000198703 /* Preview Assets.xcassets in Resources */,
 				7285CB502CA65AD000198703 /* Assets.xcassets in Resources */,
-				72CA91C92CB3916B001F4AD7 /* Roboto-Regular.ttf in Resources */,
 				72E157252CABDD5E00991EF4 /* GoogleService-Info.plist in Resources */,
-				72CA91C82CB3916B001F4AD7 /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,8 +612,6 @@
 			files = (
 				72EEF4852CB2948500D32246 /* Attendance.swift in Sources */,
 				72E5C23F2CAADA6900C6EFF3 /* OTPView.swift in Sources */,
-				72CA91CA2CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift in Sources */,
-				72CA91C02CB39162001F4AD7 /* CustomColor.swift in Sources */,
 				72D0B3832CAA432E00CD60B0 /* LoginView.swift in Sources */,
 				726F7ECA2CAD044100847434 /* WeHRView.swift in Sources */,
 				72F600C42CA9996800C3ED22 /* LanguageOption.swift in Sources */,
@@ -683,9 +627,7 @@
 				72E157322CABE2E800991EF4 /* GoogleAuth.swift in Sources */,
 				72EEF48B2CB295BC00D32246 /* ListAttendecesComponent.swift in Sources */,
 				72D0B3812CAA410E00CD60B0 /* PermissionNotificationPopover.swift in Sources */,
-				72CA91C12CB39162001F4AD7 /* MyColor.swift in Sources */,
 				72E157342CABF31700991EF4 /* ButtonComponent.swift in Sources */,
-				72CA91C72CB3916B001F4AD7 /* Font.swift in Sources */,
 				72EEF4892CB2957600D32246 /* FilterComponent.swift in Sources */,
 				72D0B3872CAA53BE00CD60B0 /* SecureComponent.swift in Sources */,
 				72B06C342CAA98A500D0D8E8 /* SignUpView.swift in Sources */,
