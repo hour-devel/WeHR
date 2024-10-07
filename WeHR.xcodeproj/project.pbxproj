@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72401A892CA92D0400EB2E08 /* landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72401A882CA92D0400EB2E08 /* landing.swift */; };
+		726F7ECA2CAD044100847434 /* WeHRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F7EC92CAD044100847434 /* WeHRView.swift */; };
 		7285CB4C2CA65ACF00198703 /* WeHRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB4B2CA65ACF00198703 /* WeHRApp.swift */; };
-		7285CB4E2CA65ACF00198703 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB4D2CA65ACF00198703 /* ContentView.swift */; };
 		7285CB502CA65AD000198703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7285CB4F2CA65AD000198703 /* Assets.xcassets */; };
 		7285CB532CA65AD000198703 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7285CB522CA65AD000198703 /* Preview Assets.xcassets */; };
 		7285CB5D2CA65AD000198703 /* WeHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB5C2CA65AD000198703 /* WeHRTests.swift */; };
 		7285CB672CA65AD000198703 /* WeHRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB662CA65AD000198703 /* WeHRUITests.swift */; };
 		7285CB692CA65AD000198703 /* WeHRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */; };
+		72B06C342CAA98A500D0D8E8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B06C332CAA98A500D0D8E8 /* SignUpView.swift */; };
+		72B64E112CAE3CEB00179FF2 /* LoadingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */; };
+		72CA91C02CB39162001F4AD7 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91BD2CB39162001F4AD7 /* CustomColor.swift */; };
+		72CA91C12CB39162001F4AD7 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91BE2CB39162001F4AD7 /* MyColor.swift */; };
+		72CA91C72CB3916B001F4AD7 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91C22CB3916B001F4AD7 /* Font.swift */; };
+		72CA91C82CB3916B001F4AD7 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72CA91C32CB3916B001F4AD7 /* Roboto-Black.ttf */; };
+		72CA91C92CB3916B001F4AD7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72CA91C42CB3916B001F4AD7 /* Roboto-Regular.ttf */; };
+		72CA91CA2CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA91C52CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift */; };
+		72D0B3812CAA410E00CD60B0 /* PermissionNotificationPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */; };
+		72D0B3832CAA432E00CD60B0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3822CAA432E00CD60B0 /* LoginView.swift */; };
+		72D0B3852CAA52CA00CD60B0 /* InputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3842CAA52CA00CD60B0 /* InputComponent.swift */; };
+		72D0B3872CAA53BE00CD60B0 /* SecureComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3862CAA53BE00CD60B0 /* SecureComponent.swift */; };
+		72E157252CABDD5E00991EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72E157242CABDD5E00991EF4 /* GoogleService-Info.plist */; };
+		72E157282CABDF1100991EF4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 72E157272CABDF1100991EF4 /* FirebaseAnalytics */; };
+		72E1572A2CABDF1100991EF4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 72E157292CABDF1100991EF4 /* FirebaseAuth */; };
+		72E1572E2CABE1F900991EF4 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 72E1572D2CABE1F900991EF4 /* GoogleSignIn */; };
+		72E157302CABE1F900991EF4 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 72E1572F2CABE1F900991EF4 /* GoogleSignInSwift */; };
+		72E157322CABE2E800991EF4 /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E157312CABE2E800991EF4 /* GoogleAuth.swift */; };
+		72E157342CABF31700991EF4 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E157332CABF31700991EF4 /* ButtonComponent.swift */; };
+		72E5C23F2CAADA6900C6EFF3 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5C23E2CAADA6900C6EFF3 /* OTPView.swift */; };
+		72E5C2422CAAE32C00C6EFF3 /* OTPModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5C2412CAAE32C00C6EFF3 /* OTPModifier.swift */; };
+		72EEF4832CB2946400D32246 /* AttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF4822CB2946400D32246 /* AttendanceViewModel.swift */; };
+		72EEF4852CB2948500D32246 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF4842CB2948500D32246 /* Attendance.swift */; };
+		72EEF4872CB2954F00D32246 /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF4862CB2954F00D32246 /* AttendanceView.swift */; };
+		72EEF4892CB2957600D32246 /* FilterComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF4882CB2957600D32246 /* FilterComponent.swift */; };
+		72EEF48B2CB295BC00D32246 /* ListAttendecesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */; };
+		72EEF48D2CB295D900D32246 /* SelectDateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF48C2CB295D900D32246 /* SelectDateComponent.swift */; };
+		72F600C42CA9996800C3ED22 /* LanguageOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F600C32CA9996800C3ED22 /* LanguageOption.swift */; };
+		72F600C62CA9998900C3ED22 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F600C52CA9998900C3ED22 /* LanguageSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72401A882CA92D0400EB2E08 /* landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landing.swift; sourceTree = "<group>"; };
+		726F7EC92CAD044100847434 /* WeHRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRView.swift; sourceTree = "<group>"; };
 		7285CB482CA65ACF00198703 /* WeHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7285CB4B2CA65ACF00198703 /* WeHRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRApp.swift; sourceTree = "<group>"; };
-		7285CB4D2CA65ACF00198703 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7285CB4F2CA65AD000198703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7285CB522CA65AD000198703 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7285CB582CA65AD000198703 /* WeHRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeHRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +75,32 @@
 		7285CB622CA65AD000198703 /* WeHRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeHRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7285CB662CA65AD000198703 /* WeHRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITests.swift; sourceTree = "<group>"; };
 		7285CB682CA65AD000198703 /* WeHRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeHRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72B06C332CAA98A500D0D8E8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingComponent.swift; sourceTree = "<group>"; };
+		72CA91BD2CB39162001F4AD7 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		72CA91BE2CB39162001F4AD7 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		72CA91C22CB3916B001F4AD7 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		72CA91C32CB3916B001F4AD7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		72CA91C42CB3916B001F4AD7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		72CA91C52CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorWithPlaceholder.swift; sourceTree = "<group>"; };
+		72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionNotificationPopover.swift; sourceTree = "<group>"; };
+		72D0B3822CAA432E00CD60B0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		72D0B3842CAA52CA00CD60B0 /* InputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputComponent.swift; sourceTree = "<group>"; };
+		72D0B3862CAA53BE00CD60B0 /* SecureComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureComponent.swift; sourceTree = "<group>"; };
+		72E157242CABDD5E00991EF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72E1572B2CABDFEB00991EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72E157312CABE2E800991EF4 /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
+		72E157332CABF31700991EF4 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		72E5C23E2CAADA6900C6EFF3 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		72E5C2412CAAE32C00C6EFF3 /* OTPModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPModifier.swift; sourceTree = "<group>"; };
+		72EEF4822CB2946400D32246 /* AttendanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewModel.swift; sourceTree = "<group>"; };
+		72EEF4842CB2948500D32246 /* Attendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		72EEF4862CB2954F00D32246 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		72EEF4882CB2957600D32246 /* FilterComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterComponent.swift; sourceTree = "<group>"; };
+		72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAttendecesComponent.swift; sourceTree = "<group>"; };
+		72EEF48C2CB295D900D32246 /* SelectDateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateComponent.swift; sourceTree = "<group>"; };
+		72F600C32CA9996800C3ED22 /* LanguageOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOption.swift; sourceTree = "<group>"; };
+		72F600C52CA9998900C3ED22 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E157282CABDF1100991EF4 /* FirebaseAnalytics in Frameworks */,
+				72E1572A2CABDF1100991EF4 /* FirebaseAuth in Frameworks */,
+				72E1572E2CABE1F900991EF4 /* GoogleSignIn in Frameworks */,
+				72E157302CABE1F900991EF4 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +132,207 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72401A6F2CA8FF8E00EB2E08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72B64E102CAE3CEB00179FF2 /* LoadingComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72401A712CA8FFBA00EB2E08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72F600C32CA9996800C3ED22 /* LanguageOption.swift */,
+				72F600C52CA9998900C3ED22 /* LanguageSelectionView.swift */,
+				72D0B3802CAA410E00CD60B0 /* PermissionNotificationPopover.swift */,
+				72D0B3842CAA52CA00CD60B0 /* InputComponent.swift */,
+				72D0B3862CAA53BE00CD60B0 /* SecureComponent.swift */,
+				72E5C2412CAAE32C00C6EFF3 /* OTPModifier.swift */,
+				72E157332CABF31700991EF4 /* ButtonComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72401A722CA8FFC300EB2E08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72401A732CA9004F00EB2E08 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				72CA91C62CB3916B001F4AD7 /* font */,
+				72CA91BF2CB39162001F4AD7 /* Color */,
+				7285CBF12CA66B6D00198703 /* localization */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		72401A742CA902B200EB2E08 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				72401A7B2CA9036200EB2E08 /* Components */,
+				72401A782CA902DD00EB2E08 /* Views */,
+				72401A7A2CA9035700EB2E08 /* ViewModels */,
+				72401A792CA9033C00EB2E08 /* Models */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		72401A752CA902BA00EB2E08 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				72401A7F2CA9038700EB2E08 /* Component */,
+				72401A7E2CA9038100EB2E08 /* Views */,
+				72401A7D2CA9037A00EB2E08 /* ViewModels */,
+				72401A7C2CA9037500EB2E08 /* Models */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		72401A762CA902CA00EB2E08 /* Leave */ = {
+			isa = PBXGroup;
+			children = (
+				72401A832CA903AF00EB2E08 /* Components */,
+				72401A822CA903A800EB2E08 /* Views */,
+				72401A812CA903A200EB2E08 /* ViewModels */,
+				72401A802CA9039600EB2E08 /* Models */,
+			);
+			path = Leave;
+			sourceTree = "<group>";
+		};
+		72401A772CA902D400EB2E08 /* Overtime */ = {
+			isa = PBXGroup;
+			children = (
+				72401A872CA903CC00EB2E08 /* Components */,
+				72401A862CA903C600EB2E08 /* Views */,
+				72401A852CA903BE00EB2E08 /* ViewModels */,
+				72401A842CA903BA00EB2E08 /* Models */,
+			);
+			path = Overtime;
+			sourceTree = "<group>";
+		};
+		72401A782CA902DD00EB2E08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72401A792CA9033C00EB2E08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72401A7A2CA9035700EB2E08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72401A7B2CA9036200EB2E08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72401A7C2CA9037500EB2E08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72EEF4842CB2948500D32246 /* Attendance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72401A7D2CA9037A00EB2E08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				72EEF4822CB2946400D32246 /* AttendanceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72401A7E2CA9038100EB2E08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72EEF4862CB2954F00D32246 /* AttendanceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72401A7F2CA9038700EB2E08 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				72EEF4882CB2957600D32246 /* FilterComponent.swift */,
+				72EEF48A2CB295BB00D32246 /* ListAttendecesComponent.swift */,
+				72EEF48C2CB295D900D32246 /* SelectDateComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		72401A802CA9039600EB2E08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72401A812CA903A200EB2E08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72401A822CA903A800EB2E08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72401A832CA903AF00EB2E08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72401A842CA903BA00EB2E08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72401A852CA903BE00EB2E08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72401A862CA903C600EB2E08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72401A872CA903CC00EB2E08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		7285CB3F2CA65ACF00198703 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +356,13 @@
 		7285CB4A2CA65ACF00198703 /* WeHR */ = {
 			isa = PBXGroup;
 			children = (
+				7285CBE62CA66ADB00198703 /* Home */,
+				7285CBE52CA66AD200198703 /* Authentication */,
+				7285CBFB2CA66BE600198703 /* Setting */,
+				7285CBEF2CA66B5F00198703 /* Helper */,
 				7285CB4B2CA65ACF00198703 /* WeHRApp.swift */,
-				7285CB4D2CA65ACF00198703 /* ContentView.swift */,
+				72E157242CABDD5E00991EF4 /* GoogleService-Info.plist */,
+				72E1572B2CABDFEB00991EF4 /* Info.plist */,
 				7285CB4F2CA65AD000198703 /* Assets.xcassets */,
 				7285CB512CA65AD000198703 /* Preview Content */,
 			);
@@ -127,6 +394,133 @@
 			path = WeHRUITests;
 			sourceTree = "<group>";
 		};
+		7285CBE52CA66AD200198703 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				72401A712CA8FFBA00EB2E08 /* Components */,
+				7285CBF92CA66BBF00198703 /* Views */,
+				7285CBF82CA66BB600198703 /* ViewModels */,
+				7285CBF72CA66BB100198703 /* Models */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		7285CBE62CA66ADB00198703 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				726F7EC92CAD044100847434 /* WeHRView.swift */,
+				72401A772CA902D400EB2E08 /* Overtime */,
+				72401A762CA902CA00EB2E08 /* Leave */,
+				72401A752CA902BA00EB2E08 /* Attendance */,
+				72401A742CA902B200EB2E08 /* Summary */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7285CBEF2CA66B5F00198703 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				72401A6F2CA8FF8E00EB2E08 /* Components */,
+				72401A732CA9004F00EB2E08 /* Config */,
+				7285CBFA2CA66BCA00198703 /* Utilities */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7285CBF12CA66B6D00198703 /* localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
+		7285CBF72CA66BB100198703 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7285CBF82CA66BB600198703 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				72E157312CABE2E800991EF4 /* GoogleAuth.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7285CBF92CA66BBF00198703 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72401A882CA92D0400EB2E08 /* landing.swift */,
+				72D0B3822CAA432E00CD60B0 /* LoginView.swift */,
+				72B06C332CAA98A500D0D8E8 /* SignUpView.swift */,
+				72E5C23E2CAADA6900C6EFF3 /* OTPView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7285CBFA2CA66BCA00198703 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7285CBFB2CA66BE600198703 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				72401A722CA8FFC300EB2E08 /* Components */,
+				7285CBFE2CA66BFB00198703 /* Views */,
+				7285CBFD2CA66BF400198703 /* ViewModels */,
+				7285CBFC2CA66BED00198703 /* Models */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		7285CBFC2CA66BED00198703 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7285CBFD2CA66BF400198703 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7285CBFE2CA66BFB00198703 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72CA91BF2CB39162001F4AD7 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				72CA91BD2CB39162001F4AD7 /* CustomColor.swift */,
+				72CA91BE2CB39162001F4AD7 /* MyColor.swift */,
+			);
+			name = Color;
+			path = ../../../../../../Downloads/WeHR/WeHR/Helper/Custom/Color;
+			sourceTree = "<group>";
+		};
+		72CA91C62CB3916B001F4AD7 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				72CA91C22CB3916B001F4AD7 /* Font.swift */,
+				72CA91C32CB3916B001F4AD7 /* Roboto-Black.ttf */,
+				72CA91C42CB3916B001F4AD7 /* Roboto-Regular.ttf */,
+				72CA91C52CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift */,
+			);
+			name = font;
+			path = ../../../../../../Downloads/WeHR/WeHR/Helper/Custom/font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +537,12 @@
 			dependencies = (
 			);
 			name = WeHR;
+			packageProductDependencies = (
+				72E157272CABDF1100991EF4 /* FirebaseAnalytics */,
+				72E157292CABDF1100991EF4 /* FirebaseAuth */,
+				72E1572D2CABE1F900991EF4 /* GoogleSignIn */,
+				72E1572F2CABE1F900991EF4 /* GoogleSignInSwift */,
+			);
 			productName = WeHR;
 			productReference = 7285CB482CA65ACF00198703 /* WeHR.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +615,10 @@
 				Base,
 			);
 			mainGroup = 7285CB3F2CA65ACF00198703;
+			packageReferences = (
+				72E157262CABDF1100991EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				72E1572C2CABE1F900991EF4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 7285CB492CA65ACF00198703 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +637,9 @@
 			files = (
 				7285CB532CA65AD000198703 /* Preview Assets.xcassets in Resources */,
 				7285CB502CA65AD000198703 /* Assets.xcassets in Resources */,
+				72CA91C92CB3916B001F4AD7 /* Roboto-Regular.ttf in Resources */,
+				72E157252CABDD5E00991EF4 /* GoogleService-Info.plist in Resources */,
+				72CA91C82CB3916B001F4AD7 /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +664,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7285CB4E2CA65ACF00198703 /* ContentView.swift in Sources */,
+				72EEF4852CB2948500D32246 /* Attendance.swift in Sources */,
+				72E5C23F2CAADA6900C6EFF3 /* OTPView.swift in Sources */,
+				72CA91CA2CB3916B001F4AD7 /* TextEditorWithPlaceholder.swift in Sources */,
+				72CA91C02CB39162001F4AD7 /* CustomColor.swift in Sources */,
+				72D0B3832CAA432E00CD60B0 /* LoginView.swift in Sources */,
+				726F7ECA2CAD044100847434 /* WeHRView.swift in Sources */,
+				72F600C42CA9996800C3ED22 /* LanguageOption.swift in Sources */,
+				72D0B3852CAA52CA00CD60B0 /* InputComponent.swift in Sources */,
 				7285CB4C2CA65ACF00198703 /* WeHRApp.swift in Sources */,
+				72EEF4872CB2954F00D32246 /* AttendanceView.swift in Sources */,
+				72E5C2422CAAE32C00C6EFF3 /* OTPModifier.swift in Sources */,
+				72EEF4832CB2946400D32246 /* AttendanceViewModel.swift in Sources */,
+				72EEF48D2CB295D900D32246 /* SelectDateComponent.swift in Sources */,
+				72B64E112CAE3CEB00179FF2 /* LoadingComponent.swift in Sources */,
+				72F600C62CA9998900C3ED22 /* LanguageSelectionView.swift in Sources */,
+				72401A892CA92D0400EB2E08 /* landing.swift in Sources */,
+				72E157322CABE2E800991EF4 /* GoogleAuth.swift in Sources */,
+				72EEF48B2CB295BC00D32246 /* ListAttendecesComponent.swift in Sources */,
+				72D0B3812CAA410E00CD60B0 /* PermissionNotificationPopover.swift in Sources */,
+				72CA91C12CB39162001F4AD7 /* MyColor.swift in Sources */,
+				72E157342CABF31700991EF4 /* ButtonComponent.swift in Sources */,
+				72CA91C72CB3916B001F4AD7 /* Font.swift in Sources */,
+				72EEF4892CB2957600D32246 /* FilterComponent.swift in Sources */,
+				72D0B3872CAA53BE00CD60B0 /* SecureComponent.swift in Sources */,
+				72B06C342CAA98A500D0D8E8 /* SignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +855,7 @@
 				DEVELOPMENT_TEAM = 464YC8Z8V2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeHR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +885,7 @@
 				DEVELOPMENT_TEAM = 464YC8Z8V2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeHR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +1020,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72E157262CABDF1100991EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		72E1572C2CABE1F900991EF4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72E157272CABDF1100991EF4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72E157262CABDF1100991EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		72E157292CABDF1100991EF4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72E157262CABDF1100991EF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		72E1572D2CABE1F900991EF4 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72E1572C2CABE1F900991EF4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		72E1572F2CABE1F900991EF4 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72E1572C2CABE1F900991EF4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7285CB402CA65ACF00198703 /* Project object */;
 }

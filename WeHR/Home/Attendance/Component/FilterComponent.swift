@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FilterView: View {
+struct FilterComponent: View {
     @Binding var isPresented: Bool
     @State private var selectedDate = "AES Date"
     @State private var statusSelection: [String: Bool] = [
@@ -17,9 +17,11 @@ struct FilterView: View {
         "Miss Check out": true,
         "Early Check": true
     ]
+    
     private var statusOrder: [String] {
         ["Miss Check-in", "Late Check-in", "Absent", "Miss Check out", "Early Check"]
     }
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 15) {
             HStack {
@@ -35,57 +37,43 @@ struct FilterView: View {
                         .foregroundColor(.black)
                 }
             }
+            .padding(.bottom, 10)
+            
             Text("Date")
                 .font(.headline)
             
             VStack(alignment: .leading, spacing: 20) {
-                HStack {
+                ForEach(["AES Date", "DES Date"], id: \.self) { date in
                     Button(action: {
-                        selectedDate = "AES Date"
+                        selectedDate = date
                     }) {
                         HStack {
                             ZStack {
                                 Circle()
-                                    .stroke(selectedDate == "AES Date" ? Color.blue : Color.gray, lineWidth: 2)
+                                    .stroke(selectedDate == date ? Color.blue : Color.gray, lineWidth: 2)
                                     .frame(width: 20, height: 20)
                                 
-                                if selectedDate == "AES Date" {
+                                if selectedDate == date {
                                     Circle()
                                         .fill(Color.blue)
                                         .frame(width: 10, height: 10)
                                 }
                             }
-                            Text("AES Date")
+                            Text(date)
                                 .foregroundColor(.black)
-                        }
-                    }
-                }
-                HStack {
-                    Button(action: {
-                        selectedDate = "DES Date"
-                    }) {
-                        HStack {
-                            ZStack {
-                                Circle()
-                                    .stroke(selectedDate == "DES Date" ? Color.blue : Color.gray, lineWidth: 2)
-                                    .frame(width: 20, height: 20)
-                                
-                                if selectedDate == "DES Date" {
-                                    Circle()
-                                        .fill(Color.blue)
-                                        .frame(width: 10, height: 10)
-                                }
-                            }
-                            Text("DES Date")
-                                .foregroundColor(.black)
+                                .font(.system(size: 18))
                         }
                     }
                 }
             }
+            .padding(.bottom, 10)
+            
             Divider()
                 .frame(height: 1)
+            
             Text("Status")
                 .font(.headline)
+            
             VStack(alignment: .leading, spacing: 20) {
                 ForEach(statusOrder, id: \.self) { key in
                     CustomCheckbox(isOn: Binding(
@@ -98,6 +86,8 @@ struct FilterView: View {
                     }
                 }
             }
+            .padding(.bottom, 10)
+            
             Button(action: {
             }) {
                 Text("Apply")
@@ -106,15 +96,17 @@ struct FilterView: View {
                     .background(Color.blue)
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    .padding(.top, 20)
             }
+            .padding(.top, 20)
         }
         .padding()
         .background(Color.white)
         .cornerRadius(15)
         .padding()
+        .frame(maxWidth: .infinity)
     }
 }
+
 // Custom Checkbox Component
 struct CustomCheckbox<Label: View>: View {
     @Binding var isOn: Bool
