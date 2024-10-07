@@ -37,6 +37,11 @@ struct Landing: View {
                             .edgesIgnoringSafeArea(.all)
                             .frame(minWidth: 300,maxWidth: geo.size.width,minHeight: 300,maxHeight: geo.size.height)
                             .padding(.trailing,-70)
+                            .overlay{
+                                if showLanguageSheet || showPermissionPopover {
+                                    LoadingComponent().multilineTextAlignment(.center)
+                                }
+                            }
                     }
                     .sheet(isPresented: $showLanguageSheet) {
                         LanguageSelectionView(showLanguageSheet: $showLanguageSheet,showPermissionPopover: $showPermissionPopover)
