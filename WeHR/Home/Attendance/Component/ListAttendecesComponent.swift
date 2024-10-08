@@ -16,46 +16,41 @@ struct ListAttendecesComponent: View {
                 HStack(spacing: 20) {
                     VStack(alignment: .leading, spacing: 15) {
                         Text(attendance.date)
-                            .font(.system(size: 13))
-                            .bold()
-                        
+                            .customFontMedium(size: 13)
                         HStack(spacing: 10) {
                             Image(attendance.imageName)
                                 .resizable()
                                 .frame(width: 15,height: 14)
                                 .frame(width: 32,height: 32)
-                                .background(Color(red: 0.863, green: 0.923, blue: 1.0))
+                                .background(Color(hex: "#2489FF").opacity(0.16))
                                 .cornerRadius(10)
 
                             VStack(alignment: .leading, spacing: 3) {
                                 Text(attendance.time)
-                                    .font(.system(size: 11))
+                                    .customFont(size: 11)
                                 Text(attendance.description)
                                     .foregroundStyle(Color(red: 0.999, green: 0.609, blue: 0.0))
-                                    .font(.system(size: 11))
-                                    .bold()
+                                    .customFont(size: 11)
                             }
                         }
                     }
                     Spacer()
                     VStack(alignment: .leading,spacing: 15){
                         Text(attendance.date)
-                            .font(.system(size: 13))
-                            .bold()
+                            .customFontMedium(size: 13)
                         HStack(spacing: 10){
                             Image(attendance.imageName)
                                 .resizable()
                                 .frame(width: 15,height: 14)
                                 .frame(width: 32,height: 32)
-                                .background(Color(red: 0.863, green: 0.923, blue: 1.0))
+                                .background(Color(hex: "#2489FF").opacity(0.16))
                                 .cornerRadius(10)
                             VStack(alignment: .leading,spacing: 3){
                                 Text(attendance.time)
-                                    .font(.system(size: 11))
+                                    .customFont(size: 11)
                                 Text(attendance.description)
                                     .foregroundStyle(Color(red: 0.999, green: 0.609, blue: 0.0))
-                                    .font(.system(size: 11))
-                                    .bold()
+                                    .customFont(size: 11)
                             }
                         }
                     }
