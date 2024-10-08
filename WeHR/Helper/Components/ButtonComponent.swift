@@ -16,7 +16,8 @@ struct ButtonComponent: View {
         }, label: {
             Spacer()
             Text("\(content)")
-                .font(.system(.title3, design: .rounded))
+//                .font(.system(.title3, design: .rounded))
+                .customFontBold(size: 16)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
             Spacer()

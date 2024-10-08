@@ -21,7 +21,7 @@ struct SecureComponent: View {
                         SecureField("\(Image("Password"))\t Enter your password", text: $password)
                     }
                 }
-                .font(.system(size: 20))
+                .customFont(size: 20)
                 .padding(.horizontal , 15)
                 .frame(minWidth: 300,maxWidth: geo.size.width,maxHeight: 40)
                 .padding(.vertical,10)

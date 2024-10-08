@@ -11,7 +11,7 @@ struct PermissionNotificationPopover: View {
     @Binding var showPermissionPopover: Bool
     @Binding var isGetStart:Bool
     
-    func askNotificationPermission() {
+    func askNotificationPermission(){
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
             if success {
                 isGetStart = true
@@ -26,15 +26,14 @@ struct PermissionNotificationPopover: View {
         VStack(spacing: 20) {
             // Bell icon
             Image(systemName: "bell.fill")
-                .font(.system(size: 50))
+                .font(.system(size: 40))
                 .foregroundColor(.blue)
             
             // Permission text
             Text("Allow **Permissions Sample App** \n to send you notifications?")
-                .font(.system(size: 16,weight: .regular))
+                .customFont(size: 16)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
-            
             // Action buttons
             VStack(spacing: 10) {
                 Button(action: {
@@ -46,19 +45,18 @@ struct PermissionNotificationPopover: View {
                     Text("Allow")
                         .frame(width: 250, height: 50)
                         .background(Color.blue.opacity(0.2))
-                        .foregroundColor(.blue)
-                        .cornerRadius(10)
+                        .foregroundColor(.black)
                 }
-                
+                .clipShape(UnevenRoundedRectangle(topLeadingRadius: 10, topTrailingRadius: 10))
                 Button(action: {
                     showPermissionPopover = false
                 }) {
                     Text("Don't allow")
                         .frame(width: 250, height: 50)
-                        .background(Color.gray.opacity(0.2))
-                        .foregroundColor(.gray)
-                        .cornerRadius(10)
+                        .background(Color.blue.opacity(0.2))
+                        .foregroundColor(.black)
                 }
+                .clipShape(UnevenRoundedRectangle(bottomLeadingRadius: 10, bottomTrailingRadius: 10))
             }
         }
         .padding()

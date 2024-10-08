@@ -36,8 +36,8 @@ struct LoginView: View {
                             InputComponent(textInput: $email,placeHolder: GoogleAuthentication.share.isLoggedIn ? GoogleAuthentication.share.givenName : "Enter your email")
                             SecureComponent(password:$password)
                             Text("Forgot password ?")
-                                .font(.system(size: 18,weight: .semibold))
-                                .foregroundStyle(Color(red: 63 / 255, green: 97 / 255, blue: 233 / 255, opacity: 1.0))
+                                .customFontBold(size: 16)
+                                .foregroundStyle(Color(hex: "primary"))
                                 .padding(.bottom,10)
                         }
                         .padding(.top,30)
@@ -85,17 +85,20 @@ struct LoginView: View {
                         .background(.white)
                         HStack{
                             Text("Don't have an account?")
+                                .customFont(size: 16)
                             Button(action:{isSignUp = true}){
                                 Text("Sign up now")
-                                    .foregroundStyle(Color(red: 63 / 255, green: 97 / 255, blue: 233 / 255, opacity: 1.0))
-                                    .font(.system(size: 18,weight: .semibold))
+                                    .foregroundStyle(Color(hex: "primary"))
+                                    .customFontBold(size: 16)
+                                    /*.font(.system(size: 18,weight: .semibold))*/
                                     .underline()
                             }
                         }.offset(y:50)
                     }
                     .frame(minWidth: 300,maxWidth: geo.size.width,minHeight: 800,maxHeight: geo.size.height)
                     .background(.white)
-                }.scrollDisabled(true)
+                }
+//                .scrollDisabled(true)
             }
             .navigationDestination(isPresented: $isLogin){
                 WeHRView()

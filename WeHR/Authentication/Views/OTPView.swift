@@ -31,10 +31,10 @@ struct OTPView: View {
             VStack {
                 Spacer()
                 Text("Enter confirmation code")
-                    .font(.title2)
+                    .customFontMedium(size: 22)
                     .fontWeight(.semibold)
                 Text("A 6-digit code we sent to your email")
-                    .font(.caption)
+                    .customFont(size: 12)
                     .fontWeight(.thin)
                     .padding(.top)
                 // OTP Input Fields
@@ -50,7 +50,7 @@ struct OTPView: View {
                 Spacer()
                 Button(action:{}){
                     Text("Resend code")
-                        .font(.system(size: 18,weight: .semibold))
+                        .customFontBold(size: 18)
                         .foregroundStyle(Color(red: 63 / 255, green: 97 / 255, blue: 233 / 255, opacity: 1.0))
                 }
                 // Verify Button

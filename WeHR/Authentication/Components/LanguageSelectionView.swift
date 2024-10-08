@@ -25,10 +25,10 @@ struct LanguageSelectionView: View {
             geo in
             VStack(alignment: .leading,spacing: 10) {
                 Text("Language")
-                    .font(.system(size: 32,weight: .bold))
+                    .customFontBold(size: 32)
                 
                 Text("Please select a display language")
-                    .font(.system(size: 18,weight: .regular))
+                    .customFont(size: 18)
                     .foregroundColor(.gray)
                 
                 // Language selection options

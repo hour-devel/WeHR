@@ -21,13 +21,15 @@ struct SignUpView: View {
                 geo in
                 ScrollView{
                     VStack(alignment:.leading){
-                        Text("Sign up").font(.system(size: 28,weight: .bold))
+                        Text("Sign up")
+                            .customFontBold(size: 28)
                         Text("Create an account to get started")
+                            .customFont(size: 16)
                         Text("Email Address")
                             .padding(.top,30)
-                            .font(.system(size: 20,weight: .bold))
+                            .customFontBold(size: 20)
                         TextField("name@email.com", text: $textInput)
-                            .font(.system(size: 20))
+                            .customFont(size: 20)
                             .padding(.horizontal , 15)
                             .frame(minWidth: 300,maxWidth: geo.size.width,maxHeight: 40)
                             .padding(.vertical,10)
