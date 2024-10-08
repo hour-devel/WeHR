@@ -13,7 +13,7 @@ struct ListAttendecesComponent: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                HStack(spacing: 20) {
+                HStack(spacing: 10) {
                     VStack(alignment: .leading, spacing: 15) {
                         Text(attendance.date)
                             .customFontMedium(size: 13)
@@ -55,7 +55,7 @@ struct ListAttendecesComponent: View {
                         }
                     }
                 }
-                .padding(.horizontal,5)
+                .padding(.horizontal,15)
                 .padding()
                 .frame(width: geometry.size.width * 1)
                 .overlay(
