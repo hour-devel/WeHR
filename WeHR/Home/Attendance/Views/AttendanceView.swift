@@ -12,7 +12,7 @@ struct AttendanceView: View {
     @State private var showFilter = false
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 13) {
+        VStack(alignment: .leading, spacing: 20) {
             VStack(spacing: 20) {
                 HStack {
                     Image("nita")
@@ -29,29 +29,7 @@ struct AttendanceView: View {
                             .frame(width: 25, height: 25)
                     }
                 }
-                HStack {
-                    HStack {
-                        Text("Search here")
-                            .font(.system(size: 14))
-                            .foregroundColor(Color(red: 0.29, green: 0.335, blue: 0.389))
-                        Spacer()
-                        Image(systemName: "magnifyingglass")
-                            .resizable()
-                            .frame(width: 13, height: 14)
-                    }
-                    .padding()
-                    .frame(maxWidth: .infinity,maxHeight: 40)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 15)
-                            .stroke(Color(hue: 0.594, saturation: 0.237, brightness: 0.987).opacity(0.4), lineWidth: 1.0)
-                    )
-                    .background(
-                        HStack {
-                            Rectangle()
-                                .fill(Color(red: 0.953, green: 0.973, blue: 0.999))
-                        }
-                        .cornerRadius(15)
-                    )
+                HStack(spacing: 25){
                     HStack {
                         Button(action: {
                             showFilter = true
@@ -61,7 +39,7 @@ struct AttendanceView: View {
                                 .frame(width: 20, height: 20)
                             Text("Filter")
                                 .foregroundColor(.black)
-                                .font(.subheadline)
+                                .customFontMedium(size: 16)
                         })
                         .sheet(isPresented: $showFilter) {
                             FilterComponent(isPresented: $showFilter)
@@ -69,12 +47,34 @@ struct AttendanceView: View {
                                 .presentationContentInteraction(.scrolls)
                         }
                     }
+                    HStack {
+                        Text("Search here")
+                            .customFont(size: 14)
+                            .foregroundColor(Color(hex: "#4B5563"))
+                        Spacer()
+                        Image(systemName: "magnifyingglass")
+                            .resizable()
+                            .frame(width: 13, height: 14)
+                    }
+                    .padding()
+                    .frame(maxWidth: 294,maxHeight: 35)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color(hex: "#EBEDFC"), lineWidth: 1.0)
+                    )
+                    .background(
+                        HStack {
+                            Rectangle()
+                                .fill(Color(hex: "#F3F8FF").opacity(0.98))
+                        }
+                        .cornerRadius(10)
+                    )
                 }
                 SelectDateComponent()
             }
+            
             Text("List Attendance")
-                .font(.subheadline)
-                .bold()
+                .customFontMedium(size: 15)
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 30) {
                     ForEach(attendances.attendances) { attendance in
@@ -90,5 +90,7 @@ struct AttendanceView: View {
 #Preview {
     AttendanceView()
 }
+
+
 
 
