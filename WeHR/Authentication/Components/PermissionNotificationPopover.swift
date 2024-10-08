@@ -61,7 +61,7 @@ struct PermissionNotificationPopover: View {
         }
         .padding()
         .background(Color.white)
-        .cornerRadius(20)
+        .cornerRadius(20)       
         .shadow(radius: 10)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
